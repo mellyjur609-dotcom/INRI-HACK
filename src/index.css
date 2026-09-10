@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Chakra Petch', system-ui, -apple-system, sans-serif;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Futuristic HUD & Glow Effects */
+.red-glow {
+  box-shadow: 0 0 20px -2px rgba(239, 68, 68, 0.45);
+}
+
+.red-glow-lg {
+  box-shadow: 0 0 35px 2px rgba(239, 68, 68, 0.35);
+}
+
+.red-text-glow {
+  text-shadow: 0 0 12px rgba(239, 68, 68, 0.6);
+}
+
+.cyber-border {
+  border: 1px solid rgba(239, 68, 68, 0.25);
+  background: linear-gradient(180deg, rgba(20, 20, 25, 0.85) 0%, rgba(10, 10, 14, 0.95) 100%);
+}
+
+.cyber-card-active {
+  border-color: rgba(239, 68, 68, 0.65);
+  box-shadow: 0 0 25px -5px rgba(220, 38, 38, 0.3), inset 0 0 15px -3px rgba(220, 38, 38, 0.12);
+}
+
+/* Custom Scrollbar for HUD */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #08080a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}

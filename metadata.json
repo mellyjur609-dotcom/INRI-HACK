@@ -1,0 +1,6 @@
+{
+  "name": "INRI H4X",
+  "description": "Futuristic mobile-first application with key gateway security, device-bound activation, admin dashboard, and cyber utility interface.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
